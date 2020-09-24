@@ -2,8 +2,6 @@
 
 module ReverseComplement (reverseComplement) where
 
-import qualified Data.ByteString.Lazy.Char8 as C
-
 -- | complement : Given a nucleotide, output it's complement.
 complement :: Char -> Char
 complement = \case { 'A' -> 'T';
